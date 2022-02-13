@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 :root{
-  --primary-blue: #fff;
+  --primary-blue: rgb(39, 35, 35);
   --primary-orange: #ffa07a;
   --primary-dark: rgba(255,255,255,0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
 }
 
 body{
@@ -85,4 +87,127 @@ nav ul li{
 
 .navbar-nav > li > a:hover{
   border-top: 0.1875rem solid var(--primary-orange) ;
+}
+
+/**************Header***********************/
+.header-wraper{
+  position: relative;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-info h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+
+
+/*************************/
+.typed-text{
+  font-size: 20px;
+  color: var(--primary-blue);
+}
+
+.heading{
+  font-size: 50px;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.btn-main-offer{
+  border: 1px solid var(--primary-orange);
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding: 10px 12px 12px 12px;
+  background-color: whitesmoke;
+  margin: 2rem;
+}
+.btn-main-offer:hover{
+  background-color: wheat;
+}
+
+.profilePic{
+  width: 250px;
+  height: 280px;
+  padding: 5px;
+}
+.extra-content{
+  font-size: 20px;
+  color: var(--primary-blue);
+}
+.div{
+  box-shadow: inset 0 3px 6px rgba(190, 185, 185, 0.16), 0 4px 6px rgba(207, 196, 196, 0.45);
+  border-radius: 2px;
+}
+
+.project-text{
+  font-size: 30px;
+  color: var(--primary-blue);
+  text-align: center;
+}
+.cakes h2{
+  margin-top: 100px;
+}
+.cakes .box-container{
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(20rem,1fr));
+  padding-top: 5rem;
+  margin-top: 20px;
+  padding-bottom: 5rem;
+}
+
+.cakes .box-container .box{
+  text-align: center;
+  background: white;
+  border-radius: .5rem;
+  border: var(--border);
+  box-shadow: inset 0 3px 6px rgba(190, 185, 185, 0.16), 0 4px 6px rgba(207, 196, 196, 0.45);
+  border-radius: 2px;
+  padding: 2rem;
+}
+
+.cakes .box-container .box img{
+  height: 10rem;
+  border: black;
+  border-radius: .5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cakes .box-container .box h3{
+  color: var(--primary-blue);
+  font-size: 20px;
+}
+.cakes .box-container .box span{
+  color: var(--primary-blue);
+  font-size: 20px;
+}
+
+.footer{
+  text-align: center;
+}
+.foot{
+  height: 1px;
+  width: 1px;
+}
+.icons{
+  padding: 5px;
+  height: 40px;
+  width: 40px;
 }
