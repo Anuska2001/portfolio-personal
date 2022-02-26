@@ -25,7 +25,7 @@ const Navbar = () => {
         <Link className="nav-link" to="/travel">Travel Diaries</Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Resume</a>
+        <a className="nav-link" href="https://rick-morty-world.herokuapp.com/">Rick & Morty</a>
       </li>
       
     </ul>
